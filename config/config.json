@@ -1,0 +1,7 @@
+{
+    "secret": "fJ$`5#G8]YUZfH_IEpZAI%jryz/L'T:qJPsBue/p:P0a:X!!d(]LPXOuS.IEj0f",
+    "refreshTokenSecret": "rvSDBcV`Dk:kp.U>&AzCDW2`qi:`w%!>zx@t52~DBv`dY<k<[&v[>)]>!#Yk=g",
+    "port": 3000,
+    "tokenLife": 900,
+    "refreshTokenLife": 86400
+}

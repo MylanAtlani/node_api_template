@@ -1,0 +1,48 @@
+{
+  "name": "squadraapi",
+  "version": "1.0.0",
+  "description": "api project for squadra",
+  "main": "index.js",
+  "engines": {},
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "jest --runInBand"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/squadra2/squadraapi.git"
+  },
+  "author": "ATLANI Mylan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/squadra2/squadraapi/issues"
+  },
+  "homepage": "https://gitlab.com/squadra2/squadraapi#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1187.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "firebase-admin": "^10.0.2",
+    "helmet": "^5.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.6",
+    "multer": "^1.4.4",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.3.0",
+    "validator": "^13.7.0",
+    "yarn": "^1.22.18"
+  },
+  "devDependencies": {
+    "jest": "^28.0.3",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.3"
+  }
+}
